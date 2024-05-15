@@ -135,3 +135,34 @@ img {
         width: 768px;
     }   
 }
+
+
+/* versione mobile 480 */
+
+@media screen and (max-width: 480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container{
+        width: 480px;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .steps .col{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+}
